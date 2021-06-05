@@ -1,0 +1,39 @@
+/* Inside of the Navigation*/
+nav{
+    min-height: 7vh;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    color: whitesmoke;
+    padding-top: 0.70%;
+}
+nav ul{
+    margin: auto 0;
+    display: flex;    
+}
+nav ul li{
+    list-style: none;
+    margin: 10px;
+
+}
+nav ul li a{
+    color: whitesmoke;
+    font-weight: bold;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: gray;
+}
+nav img{
+    width: 60px;
+}
+
+.Line{
+    border-top: 2px solid whitesmoke;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.70%;
+}
+/* Inside of the Navigation*/

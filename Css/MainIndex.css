@@ -1,0 +1,138 @@
+/* Import */
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+/* Import */
+
+/* First Background */
+.section1{
+    background-image: url("../Image/blackpuside.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    position: relative;
+}
+/* Elements */
+.content{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 6%;
+    width: 70%;
+    padding: 50px;
+}
+.TitleText h1{
+    font-family: 'Spartan', sans-serif;
+    color: whitesmoke;
+    font-size: 65px;
+    text-align: center;
+    text-shadow: 8px 8px black;
+}
+.TitleText b{
+    font-size: 100px;
+    color:  #ADA7A5;
+}
+.ImageRoller{
+    border-style: solid;
+}
+
+/* Elements */
+/* First Background */
+
+/* Second Background */
+.section2{
+    background-color: gray; /* For browsers that do not support gradients */
+    background-image: linear-gradient(black, black, gray, black);
+    background-size: cover;
+    background-position: center;
+    min-height: 40vh;
+}
+/* Elements */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto 33%;
+}
+.grid-container a{
+    background-color: rgba(255, 255, 255, 0.8);
+    text-shadow: black 5px 5px;
+    border: 5px solid black;
+    color: gray;
+    padding: 18%;
+    margin: 10px;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: bold;
+    transition: 0.30s;
+    opacity: 0.5;
+}
+.grid-container a:hover{
+    opacity: 1;
+    color: whitesmoke;
+    border: 5px solid whitesmoke;
+}
+.grid1{
+    background-image: url("../Image/gamer.jpg");
+    background-position: center;
+    background-repeat:  no-repeat;
+    background-size: contain;
+}
+.grid2{
+    background-image: url("../Image/Mining.jpg");
+    background-position: center;
+    background-repeat:  no-repeat;
+    background-size: cover;
+}
+.grid3{
+    background-image: url("../Image/Server.jpg");
+    background-position: center;
+    background-repeat:  no-repeat;
+    background-size: cover;
+}
+.grid4{
+    background-image: url("../Image/Music.jpg");
+    background-position: center;
+    background-repeat:  no-repeat;
+    background-size: cover;
+}
+.grid5{
+    background-image: url("../Image/Programming.jpg");
+    background-position: center;
+    background-repeat:  no-repeat;
+    background-size: cover;
+}
+.grid6{
+    background-image: url("../Image/Photo.jpg");
+    background-position: center;
+    background-repeat:  no-repeat;
+    background-size: cover;
+}
+.grid7{
+    background-image: url("../Image/Online.JPG");
+    background-position: center;
+    background-repeat:  no-repeat;
+    background-size: cover;
+}
+.grid8{
+    background-image: url("../Image/trrading.JPG");
+    background-position: center;
+    background-repeat:  no-repeat;
+    background-size: cover;
+}
+.grid9{
+    background-image: url("../Image/Maps.jpg");
+    background-position: center;
+    background-repeat:  no-repeat;
+    background-size: cover;
+}
+/* Elements */
+/* Second Background */
+
+.footer{
+    background-color: whitesmoke;
+    min-height: 20vh;
+    justify-content: center;
+    display: flex;
+}
+/* Third Background */

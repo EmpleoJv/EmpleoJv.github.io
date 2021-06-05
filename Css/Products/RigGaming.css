@@ -1,0 +1,8 @@
+.section1{
+    background-image: url("../../Image/gamer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    position: relative;
+}
